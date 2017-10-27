@@ -1,19 +1,30 @@
 {
-  "name": "snake",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "gulp": "^3.9.1"
-  },
-  "devDependencies": {
-    "browser-sync": "^2.18.6",
-    "gulp-rollup": "^2.10.0",
-    "gulp-sourcemaps": "^2.4.0"
-  }
+    "name": "template",
+    "version": "1.0.0",
+    "description": "Template for bundling projetcs with FuseBox",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "node fuse"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true
+    },
+    "keywords": [
+        "template",
+        "fuse",
+        "box"
+    ],
+    "author": "Dmitry Zhabko",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-preset-env": "^1.6.0",
+        "browser-sync": "^2.18.13",
+        "fuse-box": "^2.3.3",
+        "typescript": "^2.5.3"
+    },
+    "dependencies": {
+        "pixi.js": "^4.5.6"
+    }
 }
